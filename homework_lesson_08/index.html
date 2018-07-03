@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>home-work-8</title>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./util.js"></script>
+
+
+    <style type="text/css">
+        .block {
+            display: flex;
+        }
+        .block:not(:last-child) {
+            margin-bottom: 5px; 
+        }
+        .block > div:first-child  {
+            width: 140px;
+        }
+
+        .block > *:not(:last-child)  {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="blockWithDebounce"
+         class="block">
+        <div>Input with debounce:</div>
+        <input type="text">
+        <span>-</span>
+    </div>
+
+    <div id="blockWithThrottle"
+         class="block">
+        <div>Input with throttle:</div>
+        <input type="text">
+        <span>-</span>
+    </div>
+</body>
+
+<script src="./main.js"></script>
+</html>

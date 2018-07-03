@@ -1,0 +1,17 @@
+{
+  "name": "home-work-8-Aliaksandr Kryskevich",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "browser-sync start -s -w",
+    "nodeJsSample": "node ./nodeJsSample.js"
+  },
+  "author": "Aliaksandr Kryskevich",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "jasmine": "^3.1.0"
+  }
+}
