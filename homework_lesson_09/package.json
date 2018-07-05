@@ -1,0 +1,14 @@
+{
+  "name": "homework-lesson-09",
+  "version": "1.0.0",
+  "description": "prototype style",
+  "scripts": {
+    "start": "browser-sync start -s -w"
+  },
+  "author": "Aliaksandr Kryskevich",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "browser-sync": "^2.24.5"
+  }
+}
