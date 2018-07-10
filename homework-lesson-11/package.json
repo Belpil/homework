@@ -1,0 +1,15 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Homework-Lesson-11",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -w"
+  },
+  "author": "Aliaksandr Kryskevich",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "jasmine": "^3.1.0"
+  }
+}
